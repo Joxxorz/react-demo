@@ -16,7 +16,10 @@ class App extends Component {
     var height = 10;
     var color = 'red';
     var time = 5;
-    $('#jock-bar').html(jock.progressBar(width, height, color, time));
+
+    $(document).ready(function() {
+      $('#jock-bar').html(jock.progressBar(width, height, color, time));
+    });
 
     return (
       <div className="App">
