@@ -26,7 +26,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          First bar
+          First bar here
         </p>
         <div id="jock-bar"></div>
         <button onClick={this.runTimer}>Click Me</button>
