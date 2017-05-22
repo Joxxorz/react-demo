@@ -17,7 +17,7 @@ class App extends Component {
     var color = 'red';
     var time = 5;
     var jockBar = jock.progressBar(width, height, color, time);
-    console.log(jockbar);
+    console.log(jockBar);
     $('#jock-bar').html(jockBar);
 
     return (
