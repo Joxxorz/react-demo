@@ -19,7 +19,7 @@ class App extends Component {
     var jockBar = jock.progressBar(width, height, color, time);
 
     $(document).ready(function() {
-      $('#jock-bar').html(jockBar));
+      $('#jock-bar').html(jockBar);
     });
 
     return (
