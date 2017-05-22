@@ -28,7 +28,6 @@ class App extends Component {
           First bar here
         </p>
         <div id="jock-bar"></div>
-        <div>{jockBar}</div>
       </div>
     );
   }
