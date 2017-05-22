@@ -16,9 +16,10 @@ class App extends Component {
     var height = 10;
     var color = 'red';
     var time = 5;
+    var jockBar = jock.progressBar(width, height, color, time);
 
     $(document).ready(function() {
-      $('#jock-bar').html(jock.progressBar(width, height, color, time));
+      $('#jock-bar').html(jockBar));
     });
 
     return (
@@ -28,7 +29,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          First bar here
+          text change
         </p>
         <div id="jock-bar"></div>
       </div>
