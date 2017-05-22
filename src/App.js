@@ -5,6 +5,11 @@ var jock = require('react-jockbar');
 var $ = require('jquery');
 
 class App extends Component {
+
+  runTimer(){
+    jock.triggerBar();
+  }
+
   render() {
 
     var width = 0;
@@ -24,6 +29,7 @@ class App extends Component {
           First bar
         </p>
         <div id="jock-bar"></div>
+        <button onClick={this.runTimer}>Click Me</button>
       </div>
     );
   }
